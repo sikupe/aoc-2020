@@ -2,7 +2,7 @@ use std::fs;
 
 pub fn aoc_3() {
     println!("Day 3");
-    let lines = fs::read_to_string("aoc-3.txt").unwrap();
+    let lines = fs::read_to_string("res/aoc-3.txt").unwrap();
 
     let mut board = [[false; 31]; 323];
     for (l_i, line) in lines.split("\n").into_iter().enumerate() {

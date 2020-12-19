@@ -2,7 +2,7 @@ use std::fs;
 
 pub fn aoc_1() {
     println!("Day 1");
-    let content = fs::read_to_string("aoc-1.txt").expect("Something went wrong while reading file");
+    let content = fs::read_to_string("res/aoc-1.txt").expect("Something went wrong while reading file");
     let number_strings = content.split("\n");
     let mut number_vec: Vec<usize> = Vec::new();
     for num_str in number_strings.into_iter() {

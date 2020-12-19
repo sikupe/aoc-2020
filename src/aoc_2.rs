@@ -2,7 +2,7 @@ use std::fs;
 
 pub(crate) fn aoc_2() {
     println!("Day 2");
-    let input = fs::read_to_string("aoc-2.txt").unwrap();
+    let input = fs::read_to_string("res/aoc-2.txt").unwrap();
     let lines = input.split("\n");
 
     let mut correct_part_1 = 0;
